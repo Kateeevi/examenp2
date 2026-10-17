@@ -224,5 +224,137 @@ h2 {
     font-size: 10px;
 }
 
+/* Cambiamos el fondo de la sección donde presentamos información sobre nosotros */
+.nosotros {
+    background: #FCD7FB;
+}
 
+.nosotros-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 50px;
+    align-items: center;
+}
+
+.nosotros-texto p {
+    font-size: 13px;
+    margin: 12px 0;
+}
+
+.beneficios-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 12px;
+}
+
+.beneficio {
+    background: #f1f5f8;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.beneficio-icono {
+    color: #c15bf7;
+    font-size: 20px;
+}
+
+.beneficio h3 {
+    font-size: 14px;
+    margin: 8px 0;
+}
+
+.beneficio p {
+    font-size: 12px;
+}
+
+.contacto-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+    align-items: start;
+}
+
+.contacto-texto p {
+    font-size: 13px;
+    margin: 12px 0;
+}
+
+.formulario {
+    background: #FFB8FB;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.formulario-fila {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 12px;
+}
+
+.campo {
+    margin-bottom: 12px;
+}
+
+.campo label {
+    display: block;
+    font-size: 12px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+/* Damos el mismo ancho y un estilo parecido a las cajas de texto y listas */
+.campo input,
+.campo select,
+.campo textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #FFB8FB;
+    border-radius: 4px;
+    font-family: Arial, sans-serif;
+    background: white;
+}
+
+.aceptacion {
+    display: block;
+    font-size: 11px;
+    margin-bottom: 15px;
+}
+
+.boton-enviar {
+    width: 100%;
+    border: none;
+}
+
+/* Damos estilo a la parte final de la página, donde va la información del pie de página */
+.pie-pagina {
+    background: #FFB8FB;
+    color: rgb(0, 0, 0);
+    padding: 40px 0 20px;
+}
+
+.pie-grid {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    gap: 40px;
+    padding-bottom: 30px;
+}
+
+.pie-grid h2 {
+    font-size: 25px;
+}
+
+.pie-grid h3 {
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.pie-grid p,
+.pie-grid a {
+    color: #000000;
+    font-size: 12px;
+}
+
+.pie-grid ul {
+    list-style: none;
+}
 
